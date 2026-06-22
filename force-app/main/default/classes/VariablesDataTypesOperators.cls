@@ -90,7 +90,7 @@ public with sharing class VariablesDataTypesOperators {
      */
     public static Boolean isEven(Integer num) {
         if(num == null){
-            return fause;
+            return false;
         }
         return math.mod(num, 2) == 0; // Replace null with the variable you used to store the result
     }
